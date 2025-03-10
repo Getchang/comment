@@ -1,0 +1,101 @@
+.answerInput .placeholder{
+    position: absolute;
+    color: #8590a6;
+    height: 28px;
+    line-height: 28px;
+    pointer-events: none
+}
+.answerInput .asDe{
+    outline: none;
+    min-height: 28px;
+    line-height: 28px;
+    user-select: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+.answerInput .asDe .tItem{
+    /*display: flex;*/
+    min-height: 28px;line-height: 28px;
+}
+.answerInput .asDe .eItem{
+    display: inline-block;
+    margin: 0;
+    width: 24px;
+    user-select: none;
+    height: 24px;
+    background: url("./../../assets/qqface.png") no-repeat;
+    vertical-align: middle;
+}
+.asDe .lItem{
+    color: #2E78F1;
+}
+
+.answerWap .answerTooltip{
+    height: 38px;
+    min-width: 60px;
+    color: #2E78F1;
+    overflow: hidden;
+}
+.answerTooltip .el-icon-picture-outline{
+    font-size: 20px;
+    cursor: pointer;
+}
+.answerTooltip .emoji{
+    margin: 0 8px;
+    cursor: pointer;
+}
+.answerTooltip .emojiItem{
+    display: flex;
+}
+.answer .putComment{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+/*** 表情列表 ***/
+.emojiList{
+    overflow: hidden;
+    height: 235px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
+.emojiList li{
+    /*width: 34px;*/
+    /*height: 34px;*/
+    padding: 5px;
+    cursor: pointer;
+}
+.emojiList li span{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url("./../../assets/qqface.png") no-repeat;
+}
+.emojiList li:hover{
+    background: #bbbbbb
+}
+.imgContainer{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.imgContainer .el-image{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #DDDFE7;
+    border-radius: 4px;
+}
+.imgContainer .deleteIcon{
+    position: absolute;
+    left: 56px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.3);
+    cursor: pointer;
+}
+.imgContainer .deleteIcon i{
+    font-size: 14px;
+    color: #FFFFFF;
+}
